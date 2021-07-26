@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Morse Code Translator</title>
+</head>
+<body>
+    <header class="flex-container">
+        <img class="img-header" src="/img/Morse Code Translator.png" alt="">
+        <a class="link-github" target="_blank" href="https://github.com/pandeyaman/morse-code-translator">GitHub</a>
+    </header>
+    <main>
+        <section class="section-header">
+            <p class="header-text">
+                Want to send out a secret message to your friend?
+                Want to send it in some way that no middleman can interpret it?
+                Try Morse Code Transalator and convert your messages from plain text to 
+                the morse codes. For a middleman it's just a series of dots and dashes, but you 
+                know what it is <span id="span-emoji">😉</span> 
+            </p>
+        </section>
+        <section class="flex-container main-content">
+                <textarea name="txt-input" id="inputText" cols="30" rows="10" placeholder="Enter your text in plain English..."></textarea>
+                 <div class="flex-container btn-div">
+                    <button class="btn btn-sampleText">Sample Text</button>
+                    <button class="btn btn-translate">Translate</button>
+                    <button class="btn btn-reset">Reset</button>
+                </div>
+                <textarea name="txt-output" id="outputText" cols="30" rows="10" placeholder="Get your output in Morse Code..." disabled></textarea>
+        </section>
+    </main>
+    <footer>
+        <p>Made with 💜 by <a class="footer-portfolio-link" href="#">Aman Pandey</a></p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
