@@ -79,6 +79,10 @@ textarea{
     color: rgb(255, 255, 255);
 }
 
+::placeholder{
+    font-weight: 100;
+}
+
 .btn-div{
     flex-direction: column;
     justify-content: space-around;
@@ -95,6 +99,12 @@ textarea{
     /* border: 1px solid #45046A; */
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+
+.btn:hover{
+    background-color: #726A95;
+    border: 3px solid #45046A;
+    color: #45046A;
 }
 
 .btn-translate{

@@ -25,6 +25,7 @@ const addSampleText = () =>{
 
 const resetText = () =>{
     inputText.value = "";
+    outputText.value = "";
 }
 
 btnSampleText.addEventListener('click',addSampleText);
